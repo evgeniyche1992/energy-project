@@ -53,6 +53,7 @@ text-transform: uppercase;
     width: 300px;
 }
 #aboutScreen{
+    float: right;
     margin-left: 450px;
     margin-top: -330px;
     width: 300px;
@@ -508,5 +509,26 @@ ul.slides li {
               color: rgb(4, 0, 5);
               
           }
+          .wrapper{
+            background: #5DF6C5;
+            background: -webkit-radial-gradient(top left, #5DF6C5, #8BD6FF);
+        background: -moz-radial-gradient(top left, #5DF6C5, #8BD6FF);
+        background: radial-gradient(to bottom right, #5DF6C5, #8BD6FF);
+                height: max-content;
+          }
+          p{
+              font-size: 11px;
+              letter-spacing: 1px;
+          }
+          #screen{
+width: 55px;
+float: right;
+margin-top: -40px;
+position:absolute;
+          }
+          img{
+              width: 250px;
+          }
+          
 }
 
